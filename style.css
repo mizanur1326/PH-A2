@@ -376,3 +376,103 @@ footer a .social-image{
     font-size: 16px;
     font-weight: 300;
 }
+
+
+/* RESPONSIVE START HERE */
+@media screen and (max-width : 600px) {
+    .container{
+        padding: 30px 20px;
+        margin: 0 auto;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo-section {
+        margin-bottom: 40px;
+    }
+    .banner{
+        height: 100%;
+        width: 100%;
+        padding: 32px 24px;
+    }
+    .banner-title{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .banner-text{
+        margin-bottom: 15px;
+    }
+    .search-section{
+        height: 100%;
+        margin: 0 auto;
+    }
+    .user-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .user-form input, select{
+        margin-bottom: 15px;
+    }
+    .tours{
+        display: flex;
+        flex-direction: column;        
+    }
+    .destination-image .row3 img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row1, .row2, .row3{
+        display: flex;
+        flex-direction: column;   
+        margin: 20px auto;     
+    }
+    .row1, .row2, .row3 img{
+        height: 300px;
+        width: 500px;
+    }
+    .row2{
+        margin-bottom: 620px;
+    }
+    .row3{
+        margin-bottom: 30px;
+    }
+    .row3 img{
+        margin-bottom: 20px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .content3{
+        width: auto;
+    }
+    .perfect-place{
+        display: flex;
+        flex-direction: column;
+    }
+    .perfect-place-image img{
+        width: 500px;
+        height: 300px;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .newsletter-image img {
+        width: 500px;
+        height: 300px;
+    }
+    footer p{
+        padding: 15px 50px;
+        text-align: center;
+    }
+}
